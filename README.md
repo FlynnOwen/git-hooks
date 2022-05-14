@@ -1,4 +1,4 @@
-# python-git-hooks
+# git-hooks
 Testing git hooks with a Python repository
 
 Reference from this source:
