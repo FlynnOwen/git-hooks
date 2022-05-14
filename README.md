@@ -1,5 +1,5 @@
 # git-hooks
-Testing git hooks with a repository
+Testing git hooks with a repository - unfortunately the .git directory isn't tracked remotely, thus we create a folder called hooks/ to keep version control the hooks for this repo.
 
 Reference from this source:
 
