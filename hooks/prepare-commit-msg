@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/bin/sh
 #
 # An example hook script to prepare the commit log message.
 # Called by "git commit" with the name of the file that has the
@@ -20,8 +20,4 @@
 # The third example adds a Signed-off-by line to the message, that can
 # still be edited.  This is rarely a good idea.
 
-import sys, os
-
-commit_msg_filepath = sys.argv[1]
-with open(commit_msg_filepath, 'w') as f:
-    f.write("Make sure to write a good commit message!")
+flake8
