@@ -20,4 +20,4 @@
 # The third example adds a Signed-off-by line to the message, that can
 # still be edited.  This is rarely a good idea.
 
-echo flake8
+flake8 || true
