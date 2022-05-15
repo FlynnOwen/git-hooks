@@ -24,4 +24,6 @@ import sys, os
 
 commit_msg_filepath = sys.argv[1]
 with open(commit_msg_filepath, 'w') as f:
-    f.write("# Please include a useful commit message!")
+    f.write("Make sure to write a good commit message!")
+
+assert False
